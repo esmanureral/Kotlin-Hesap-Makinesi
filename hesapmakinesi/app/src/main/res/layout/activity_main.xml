@@ -62,13 +62,13 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/btnslaş"
+                android:id="@+id/btnyuzde"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/gri"
-                android:onClick="btnSayiTik"
-                android:text="/"
+                android:onClick="btnYuzdeTik"
+                android:text="%"
                 android:textColor="@color/black"
                 android:textColorHint="@color/gri"
                 android:textSize="25sp" />
@@ -261,7 +261,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="@color/butonsayi"
-                android:onClick="btnSayiTik"
+                android:onClick="btnVirgulTik"
                 android:text=","
                 android:textColor="@color/white"
                 android:textSize="25sp" />
@@ -272,7 +272,7 @@
                 android:layout_height="80dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/butonsayi"
-                android:onClick="btnSayiTik"
+                android:onClick="btnVirgulTik"
                 android:text="."
                 android:textColor="@color/white"
                 android:textSize="25sp" />

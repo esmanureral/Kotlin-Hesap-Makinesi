@@ -120,14 +120,34 @@ class MainActivity : AppCompatActivity() {
         yeniOperator=true
     }
 
+    //AC butonuna basıldığında sıfırlansın diye yapıyoruz
     fun btnSilTik (view: View)
     {
-        //AC butonuna basıldığında sıfırlansın diye yapıyoruz
+
         binding.sayigoster.setText("0")
         yeniOperator=true
-        
-
     }
 
+    //% butonuna tıklandığında:
+    fun btnYuzdeTik(view: View)
+    {
+        var sayi:Double=binding.sayigoster.text.toString().toDouble()/100
+        binding.sayigoster.setText(sayi.toString())
+        yeniOperator=true
+    }
 
+    fun btnVirgulTik(view: View) {
+        var btnTikDeger: String = binding.sayigoster.text.toString()
+
+        if (yeniOperator) {
+            btnTikDeger = "0."
+            yeniOperator = false
+        } else {
+            if (!btnTikDeger.contains(".")) {
+                btnTikDeger += "."
+            }
+        }
+
+        binding.sayigoster.setText(btnTikDeger)
+    }
 }
