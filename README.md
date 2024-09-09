@@ -17,7 +17,7 @@ Bu proje, Kotlin kullanarak geliştirdiğim basit bir hesap makinesi uygulaması
 ## 📸 Ekran Görüntüleri
 
 <details>
-<summary><b>Uygulama Ana Ekranı</b></summary>
+<summary><b>Uygulama Ana Ekranını Görmek İçin Tıklayınız</b></summary>
 <img src="https://github.com/user-attachments/assets/87973cd3-9752-479f-a148-d5f61cee7305" alt="Ana Ekran" width="300">
 </details>
 
